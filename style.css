@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a100dff;
+    text-align: center;
+}
+
+.calendar-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #b9baa3ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 14.28% /* 7 days*/
+    position: relative;
+}
+
+.calendar input{
+    width: 90%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.calendar th {
+    background-color: #902923ff;
+    color: white;
+    font-weight: bold;
+}
